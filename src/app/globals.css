@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf9f6;
+  --foreground: #0f172a;
+
+  --color-coral: #ff5a4f;
+  --color-coral-dark: #e6483e;
+  --color-ink: #0f172a;
+  --color-ivory: #fafaf7;
+  --color-sage: #e6ede8;
+  --color-sand: #f4efe7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-coral: var(--color-coral);
+  --color-coral-dark: var(--color-coral-dark);
+  --color-ink: var(--color-ink);
+  --color-ivory: var(--color-ivory);
+  --color-sage: var(--color-sage);
+  --color-sand: var(--color-sand);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-2xl: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans), "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-coral);
+  color: var(--color-ivory);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
