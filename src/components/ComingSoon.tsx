@@ -21,8 +21,8 @@ export default function ComingSoon({
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10"
       >
-        <div className="absolute -left-32 top-10 h-96 w-96 rounded-full bg-coral/15 blur-[100px]" />
-        <div className="absolute right-0 top-40 h-[28rem] w-[28rem] rounded-full bg-sage/60 blur-[110px]" />
+        <div className="absolute -left-32 top-10 h-96 w-96 rounded-full bg-coral/15 blur-[100px] soft-glow" />
+        <div className="absolute right-0 top-40 h-[28rem] w-[28rem] rounded-full bg-sage/60 blur-[110px] soft-glow" />
       </div>
 
       <motion.div

@@ -69,7 +69,7 @@ export default function Navbar() {
         className={cn(
           "flex w-full items-center justify-between transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]",
           scrolled
-            ? "max-w-5xl rounded-full border border-white/40 bg-white/55 px-3 py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_10px_30px_-5px_rgba(15,23,42,0.15)] backdrop-blur-2xl backdrop-saturate-150 sm:px-4"
+            ? "max-w-5xl rounded-full border border-white/40 bg-white/90 px-3 py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.6),0_10px_30px_-5px_rgba(15,23,42,0.15)] sm:px-4 lg:bg-white/55 lg:backdrop-blur-2xl lg:backdrop-saturate-150"
             : "max-w-7xl rounded-none border border-transparent bg-transparent px-6 py-4 shadow-none backdrop-blur-none lg:px-8"
         )}
       >

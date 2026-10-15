@@ -50,6 +50,18 @@ body {
   letter-spacing: 0.05em;
 }
 
+/*
+ * Decorative glow blobs. Large blur() filters are extremely expensive on
+ * mobile WebKit (iOS Safari/Chrome) and can stall loading and scrolling,
+ * so below lg the blur is swapped for a static radial mask.
+ */
+@media (max-width: 1023.98px) {
+  .soft-glow {
+    filter: none !important;
+    mask-image: radial-gradient(closest-side, #000, transparent);
+  }
+}
+
 .text-balance {
   text-wrap: balance;
 }

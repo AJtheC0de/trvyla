@@ -72,7 +72,7 @@ function StoryBlock({
         <div
           aria-hidden
           className={cn(
-            "pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full blur-[110px] sm:h-[26rem] sm:w-[26rem]",
+            "pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full blur-[110px] soft-glow sm:h-[26rem] sm:w-[26rem]",
             glow
           )}
         />

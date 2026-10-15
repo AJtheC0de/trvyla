@@ -44,9 +44,9 @@ export default function Hero() {
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10"
       >
-        <div className="absolute -left-32 top-10 h-96 w-96 rounded-full bg-coral/15 blur-[100px]" />
-        <div className="absolute right-0 top-40 h-[28rem] w-[28rem] rounded-full bg-sage/60 blur-[110px]" />
-        <div className="absolute left-1/3 bottom-0 h-72 w-72 rounded-full bg-sand/70 blur-[90px]" />
+        <div className="absolute -left-32 top-10 h-96 w-96 rounded-full bg-coral/15 blur-[100px] soft-glow" />
+        <div className="absolute right-0 top-40 h-[28rem] w-[28rem] rounded-full bg-sage/60 blur-[110px] soft-glow" />
+        <div className="absolute left-1/3 bottom-0 h-72 w-72 rounded-full bg-sand/70 blur-[90px] soft-glow" />
       </motion.div>
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:gap-12 lg:px-8">
@@ -136,7 +136,7 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
               whileHover={{ y: -5 }}
-              className="absolute -right-16 top-16 w-52 rounded-2xl border border-white/15 bg-ink/30 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-1px_1px_rgba(255,255,255,0.05),0_20px_45px_-10px_rgba(15,23,42,0.35)] backdrop-blur-2xl backdrop-saturate-75 sm:-right-20"
+              className="absolute -right-16 top-16 w-52 rounded-2xl border border-white/15 bg-ink/75 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-1px_1px_rgba(255,255,255,0.05),0_20px_45px_-10px_rgba(15,23,42,0.35)] lg:bg-ink/30 lg:backdrop-blur-2xl lg:backdrop-saturate-75 sm:-right-20"
             >
               <div className="flex items-center gap-1.5 text-[11px] font-semibold text-white/90">
                 <CheckCircle2 className="h-3.5 w-3.5" />
@@ -169,7 +169,7 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.9, ease: [0.16, 1, 0.3, 1] }}
               whileHover={{ y: -5 }}
-              className="absolute -left-14 bottom-20 rounded-2xl border border-white/15 bg-ink/30 px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-1px_1px_rgba(255,255,255,0.05),0_20px_45px_-10px_rgba(15,23,42,0.35)] backdrop-blur-2xl backdrop-saturate-75 sm:-left-16"
+              className="absolute -left-14 bottom-20 rounded-2xl border border-white/15 bg-ink/75 px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.25),inset_0_-1px_1px_rgba(255,255,255,0.05),0_20px_45px_-10px_rgba(15,23,42,0.35)] lg:bg-ink/30 lg:backdrop-blur-2xl lg:backdrop-saturate-75 sm:-left-16"
             >
               <p className="text-xs font-semibold text-white">Free · CHF 0</p>
               <p className="text-[11px] text-white/60">Play Tennis 🏓</p>

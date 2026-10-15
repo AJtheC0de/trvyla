@@ -43,9 +43,9 @@ export default function HostWorkspace() {
           aria-hidden
           className="pointer-events-none absolute inset-0 -z-10"
         >
-          <div className="absolute left-[8%] top-0 h-full w-64 bg-gradient-to-b from-transparent via-coral/10 to-transparent blur-[100px]" />
-          <div className="absolute right-[14%] top-0 h-[75%] w-48 bg-gradient-to-b from-coral/[0.14] via-coral/[0.05] to-transparent blur-[110px]" />
-          <div className="absolute left-[42%] top-[8%] h-3/5 w-32 bg-gradient-to-b from-transparent via-coral/[0.08] to-transparent blur-[90px]" />
+          <div className="absolute left-[8%] top-0 h-full w-64 bg-gradient-to-b from-transparent via-coral/10 to-transparent blur-[100px] soft-glow" />
+          <div className="absolute right-[14%] top-0 h-[75%] w-48 bg-gradient-to-b from-coral/[0.14] via-coral/[0.05] to-transparent blur-[110px] soft-glow" />
+          <div className="absolute left-[42%] top-[8%] h-3/5 w-32 bg-gradient-to-b from-transparent via-coral/[0.08] to-transparent blur-[90px] soft-glow" />
         </motion.div>
 
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-[1fr_1.15fr] lg:gap-10 lg:px-8">

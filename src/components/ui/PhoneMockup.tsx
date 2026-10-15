@@ -53,7 +53,7 @@ export default function PhoneMockup({
         fill
         sizes={imgSizes}
         priority={priority}
-        className="pointer-events-none relative z-10 object-contain drop-shadow-[0_45px_70px_rgba(15,23,42,0.35)]"
+        className="pointer-events-none relative z-10 object-contain lg:drop-shadow-[0_45px_70px_rgba(15,23,42,0.35)]"
       />
     </div>
   );
